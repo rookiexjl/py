@@ -1,0 +1,15 @@
+root@192.168.2.193's password: root1234
+
+Last login: Wed Aug 31 14:32:36 2016 from 192.168.3.39
+]0;root@node193:~[?1034h[root@node193 ~]# tar -czf /data/nginx_access.tar.gz /data/logs/nginx_access.log
+tar -czf /data/nginx_access.tar.gz /data/logs/nginx_access.log [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kg
+tar: Removing leading `/' from member names
+tar: /data/logs/nginx_access.log: Cannot stattar (child): : No such file or directory/data/nginx_access.tar.gz: Cannot open
+: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+]0;root@node193:~[root@node193 ~]# exit
+root@192.168.2.193's password: root1234
+
+scp: /data/nginx_access.tar.gz: No such file or directory
